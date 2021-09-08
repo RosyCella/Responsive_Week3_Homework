@@ -1,0 +1,119 @@
+:root {
+  --primary-color: #04396b;
+  --secondary-color: #b3cde0;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: 17px;
+  opacity: 0.7;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+.logoRosy {
+  max-width: 60px;
+}
+.navBar {
+  margin-bottom: 30px;
+}
+.projectButtons {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--primary-color);
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 15px 15px;
+  display: block;
+
+  text-transform: capitalize;
+}
+.projectHeading {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.projectParagraph {
+  line-height: 1.5;
+  text-align: justify;
+}
+.projectGrid {
+  margin-top: 70px;
+}
+.aboutMe {
+  text-align: center;
+  margin: 40px 40px;
+}
